@@ -1,18 +1,3 @@
-# Tarea 1 - CRUD en PostgreSQL con Python
-
-Aplicacion de consola en Python para gestionar alumnos en una base de datos PostgreSQL.
-
-## Requisitos
-
-- Python 3
-- PostgreSQL
-- Libreria `psycopg2`
-
-Instalar dependencia:
-
-```bash
-pip install psycopg2-binary
-```
 
 ## Base de datos
 
@@ -79,23 +64,3 @@ python main.py
 3. Listar todos los alumnos
 4. Eliminar alumno por carnet
 5. Salir
-
-## Subir a GitHub
-
-Crear repositorio local:
-
-```bash
-git init
-git add main.py README.md
-git commit -m "Tarea 1 CRUD PostgreSQL"
-```
-
-Crear un repositorio en GitHub llamado `tarea1-prog1` y subirlo:
-
-```bash
-git branch -M main
-git remote add origin https://github.com/TU_USUARIO/tarea1-prog1.git
-git push -u origin main
-```
-
-Luego entrega el enlace del repositorio.
